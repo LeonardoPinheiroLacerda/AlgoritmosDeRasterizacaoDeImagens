@@ -9,7 +9,7 @@ public class Application {
 		
 		DDA dda = new DDA(new Image(10,10));
 		
-		dda.raster(new Point(9, 8), new Point(2, 2));
+		dda.raster(new Point(9, 2), new Point(8, 8));
 		
 		System.out.println(dda.toString());
 		

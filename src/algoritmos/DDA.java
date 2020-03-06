@@ -21,10 +21,10 @@ public class DDA {
 	
 	public void raster(Point first, Point last) {
 		
-		Integer step = (Math.abs(last.getX() - first.getX()) < Math.abs(last.getY() - first.getY())) 
+		Integer step = (Math.abs(last.getX() - first.getX()) > Math.abs(last.getY() - first.getY())) 
 				? Math.abs(last.getX() - first.getX()) 
 						: Math.abs(last.getY() - first.getY());
-		
+				
 		float Xinc = (last.getX() - first.getX());
 		Xinc /= step;
 		
