@@ -10,7 +10,7 @@ public class Application {
 		
 		//Pontos a serem ligados
 		Point first = new Point(0, 0);
-		Point last = new Point(3, 8);
+		Point last = new Point(3, 2);
 		
 		System.out.println("--------DDA--------");
 		
